@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2013, The Linux Foundataion. All rights reserved.
+/* Copyright (c) 2012-2015, The Linux Foundataion. All rights reserved.
 *
 * Redistribution and use in source and binary forms, with or without
 * modification, are permitted provided that the following conditions are
@@ -49,7 +49,7 @@ camera_module_t HAL_MODULE_INFO_SYM = {
     .set_callbacks = qcamera::QCamera3Factory::set_callbacks,
     .get_vendor_tag_ops = qcamera::QCamera3VendorTags::get_vendor_tag_ops,
     .open_legacy = qcamera::QCamera3Factory::open_legacy,
-    .set_torch_mode = NULL,
+    .set_torch_mode = qcamera::QCamera3Factory::set_torch_mode,
     .init = NULL,
     .reserved = {0}
 };
