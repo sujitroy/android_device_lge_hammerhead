@@ -183,6 +183,11 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
+=======
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service \
+>>>>>>> 282e506... device/manifest: Make keymaster binderized always
     keystore.msm8974
 
 PRODUCT_PACKAGES += \
