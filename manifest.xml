@@ -1,5 +1,6 @@
 <manifest version="1.0" type="device">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
@@ -19,6 +20,8 @@
             <instance>default</instance>
         </interface>
     </hal>
+=======
+>>>>>>> 85fa5a5... device/manifest: Use binderized NFC HAL
     <hal format="hidl">
         <name>android.hardware.nfc</name>
         <transport>hwbinder</transport>
@@ -28,6 +31,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+<<<<<<< HEAD
     <hal format="hidl">
         <name>android.hardware.wifi</name>
         <transport>hwbinder</transport>
@@ -47,4 +51,6 @@
         </interface>
     </hal>
 >>>>>>> e5e9778... device/manifest: Set up binderized camera HAL
+=======
+>>>>>>> 85fa5a5... device/manifest: Use binderized NFC HAL
 </manifest>
