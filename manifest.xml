@@ -32,10 +32,17 @@
         </interface>
     </hal>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <hal format="hidl">
         <name>android.hardware.wifi</name>
         <transport>hwbinder</transport>
         <version>1.1</version>
+=======
+    <hal format="hidl">
+        <name>android.hardware.wifi</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+>>>>>>> 5fab679... device/manifest: Switch to binderized Wi-Fi service
         <interface>
             <name>IWifi</name>
             <instance>default</instance>
@@ -50,7 +57,10 @@
             <instance>default</instance>
         </interface>
     </hal>
+<<<<<<< HEAD
 >>>>>>> e5e9778... device/manifest: Set up binderized camera HAL
 =======
 >>>>>>> 85fa5a5... device/manifest: Use binderized NFC HAL
+=======
+>>>>>>> 5fab679... device/manifest: Switch to binderized Wi-Fi service
 </manifest>
