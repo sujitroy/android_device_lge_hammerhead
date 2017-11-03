@@ -125,8 +125,13 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS:= true
 
+<<<<<<< HEAD
 # Hardware
 BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS := hardware/cyanogen/cmhw
+=======
+# USB
+TARGET_USES_LEGACY_ADB_INTERFACE := true
+>>>>>>> 241b8fc... hammerhead: Use legacy ADB interface
 
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
