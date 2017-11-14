@@ -173,13 +173,18 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libqomx_core \
+    camera.device@3.2-impl \
     libmmcamera_interface \
     libmmjpeg_interface \
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
 >>>>>>> e5e9778... device/manifest: Set up binderized camera HAL
+=======
+    android.hardware.camera.provider@2.4-impl \
+>>>>>>> 8be3674... device: Add camera module & provider HIDL implementations
     camera.hammerhead \
     mm-jpeg-interface-test \
     mm-qcamera-app \
