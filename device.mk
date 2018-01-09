@@ -196,9 +196,6 @@ PRODUCT_PACKAGES += \
 >>>>>>> 679df54... device: Add audio, lights, sensors, etc. HIDL implementations
     keystore.msm8974
 
-PRODUCT_PACKAGES += \
-    power.msm8974
-
 # GPS configuration
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/gps.conf:system/etc/gps.conf
