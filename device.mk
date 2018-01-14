@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    device/lge/hammerhead/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+>>>>>>> b9e43db... audio/device: Copy a stub audio platform info
     device/lge/hammerhead/audio_policy.conf:system/etc/audio_policy.conf \
 =======
     frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
